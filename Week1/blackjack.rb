@@ -28,7 +28,7 @@ while play_again == '1'
 	suits_arr = ['S', 'H', 'D', 'C']
 	cards_arr = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
 
-	deck = suits_arr.product(cards_arr)
+	deck = suits_arr.product(cards_arr)*3
 	deck.shuffle!
 
 	player_cards = []
